@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mumble_ptt_caps_lock_led"
-version = "1.0.0"
+version = "1.0.1"
 description = "A python program to let the LED of your caps lock key display your mumble PTT state."
 repository = "https://github.com/neumantm/mumble_ptt_caps_lock_led"
 readme = "README.md"
@@ -14,7 +14,7 @@ mpcll_set_caps_led_from_pipe = 'mumble_ptt_caps_lock_led.set_caps_led_from_pipe:
 [tool.poetry.dependencies]
 python = "^3.7"
 pydbus = "^0.6.0"
-pygobject = "^3.38.0"
+pygobject = "^3.36.0"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
